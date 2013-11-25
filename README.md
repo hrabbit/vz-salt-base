@@ -1,4 +1,5 @@
 vz-salt-base
 ============
 
-Building configs for salt-minion VZ containers.
+Create a base package that allows dab creations to be deployed purely for use in salt networks.
+
