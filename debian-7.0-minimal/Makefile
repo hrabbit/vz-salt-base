@@ -6,7 +6,7 @@ all: info/init_ok
 	@if [[ -n "$(SALT-MASTER)" ]]; then \
 		echo "Setting master: $(SALT-MASTER)"; \
 		mkdir -p ${BASEDIR}/etc/salt/minion.d; \
-		echo "master: $(SALT-MASTER)" > ${BASEDIR}/etc/salt/minion.d/houselan.conf; \
+		echo "master: $(SALT-MASTER)" > ${BASEDIR}/etc/salt/minion.d/local.conf; \
 	fi;
 
 	echo "" >> ${BASEDIR}/etc/network/interfaces
